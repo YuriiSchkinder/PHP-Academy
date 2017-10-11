@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width:800px;
+    margin:0 auto;
+    background-color:rgba(197,199,198,0.35) ;
+
+}
+
+.wrapper h1{
+    text-align: center;
+}
+.rezume img{
+    float:right;
+
+}
+.rezume{
+    margin:50px 0;
+}
+.rezume h3{
+    font-size:16px;
+}
+
+
+.rezume th, td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+.list ol{
+    width: 180px;
+    font-size:20px;
+    margin: 0 auto;
+}
+.list  a{
+    margin-top:10px ;
+    color: #bc1134;
+}
+.list  a:hover{
+    color: #00bca9;
+
+}
+
+h4{
+    margin:20px;
+    font-size: 20px;
+    color: green;
+}
+.images img{
+    width: 200px;
+    height: 200px;
+    margin:20px 300px;
+}
+.tab p{
+    font-weight: 800;
+    margin:15px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.tab table{
+    width: 50%;
+    margin:0 auto;
+}
+.tab table tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.container form{
+    width: 250px;
+    margin: 10px auto;
+    color: dimgray;
+
+}
+.container p{
+    margin: 10px 0;
+    font-size: 14px;
+
+}
+
+.container input[type="text"] ,input[type="email"]{
+    padding: 5px;
+    border: 2px solid #ff7d58;
+    border-radius: 4px;
+    font-size:18px;
+    padding-left: 10px;
+    margin-top:15px;
+    width: 200px;
+    height: 25px;
+}
+.container select {
+    width: 50%;
+    padding: 10px 15px;
+
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    border: 2px solid #ff7d58;
+}
+.container button{
+    margin-top:20px;
+    font-size:18px;
+    font-style: italic;
+    width: 110px;
+    height: 30px;
+    background-color: #6c0cbc;
+    border: none;
+    border-radius:50% 50% 0 0;
+}
