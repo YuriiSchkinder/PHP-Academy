@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 100px;
+    padding: 20px 25px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid;
+    color: #555;
+    text-shadow: 0 1px #fafafa;
+}a:before,
+ a:after{
+    content:"*";
+    color:#999;
+    padding: 0 5px;
+ }
