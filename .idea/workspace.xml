@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac62a45-67e7-4cec-a6e5-07ec1a34d478" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book3.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book4.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book5.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book6.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book7.fb2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opp/books/files/book8.fb2" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,42 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opp/books/classes/table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <marker date="1511105264574" expanded="true" signature="385:404" ph="SELECT * FRO... books" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opp/books/classes/books.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/opp/books/data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <marker date="1511110522878" expanded="true" signature="473:475" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,33 +131,6 @@
               <item name="opp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="books" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="opp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="books" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="opp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="books" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="files" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="opp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="books" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="opp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="navDB" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,18 +203,17 @@
       <workItem from="1510673054102" duration="15546000" />
       <workItem from="1510752657171" duration="30241000" />
       <workItem from="1510851362889" duration="662000" />
-      <workItem from="1511096132410" duration="12840000" />
+      <workItem from="1511096132410" duration="13115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314211000" />
+    <option name="totallyTimeSpent" value="314486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4689441" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -543,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opp/books/classes/books.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opp/books/classes/table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -558,6 +495,14 @@
           <folding>
             <marker date="1511105264574" expanded="true" signature="385:404" ph="SELECT * FRO... books" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opp/books/classes/books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
