@@ -1,24 +1,24 @@
 <?php
 error_reporting(E_ALL);
 
-trait MyTraite{
-    private $abc=1;
+trait Useful{
+    private $prop=Null;
     public function increment(){
-        $this->abc++;
+        $this->prop++;
     }
     public function getValue(){
-        return $this->abc;
+        return $this->prop;
     }
 }
 class MyClass{
-    use MyTraite;
-    public function incrementBy2()
+    use Useful;
+    public function incrementNew()
     {
         $this->increment();
-        $this->abc++;
+        $this->prop++;
     }
 }
 $c= new MyClass();
-$c->incrementBy2();
+$c->incrementNew();
 var_dump($c->getValue());
 ?>
