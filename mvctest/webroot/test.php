@@ -1,21 +1,13 @@
 <?php
 error_reporting(E_ALL);
 
-class Foo {
-    public static $cnt=0;
-    public function foo(){
-        ++self::$cnt;
-    }
-    function __construct()
+abstract class AbstractClass{
+    abstract protected function prefix($name);
+}
+class Concrete extends AbstractClass{
+    public function prefix($name,$value=' ')
     {
-        ++self::$cnt;
+
     }
 }
-$f=new Foo;
-$d=$f;
-$c= clone $d;
-$f->foo();
-$d->foo();
-$c->foo();
-echo Foo::$cnt;
 ?>
