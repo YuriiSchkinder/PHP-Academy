@@ -1,24 +1,14 @@
 <?php
 error_reporting(E_ALL);
 class C{
-    public $x=1;
-    function __construct()
-    {
-
-        ++$this->x;
-    }
-    function __invoke()
-    {
-
-        return ++$this->x;
-    }
-    function __toString()
-    {
-
-        return (string) --$this->x;
-    }
+    protected $x=array();
+ public function &getX(){
+     return $this->x;
+ }
 
 }
 $obj= new C();
-echo $obj();
+array_push($obj->getX(),'one');
+array_push($obj->getX(),'two');
+echo count($obj->getX());
 ?>
