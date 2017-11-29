@@ -1,14 +1,15 @@
 <?php
 error_reporting(E_ALL);
 
-class newClass{
-    public $a=10;
-    public $b=20;
-    private $c=10;
-
+class object{
+    function object($entity){
+        $entity->name='John';
+    }
 }
-$b= new newClass();
-foreach ($b as $key=>$value){
-    echo "$value ";
+class Entity{
+    var $name='Maria';
 }
+$entity= new Entity();
+$obj= new object($entity);
+print $entity->name;
 ?>
