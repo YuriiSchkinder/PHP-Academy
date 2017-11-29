@@ -16,8 +16,8 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvctest/webroot/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="278">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-158" />
     <option name="y" value="12" />
     <option name="width" value="877" />
@@ -251,15 +251,15 @@
       <workItem from="1511883193284" duration="61000" />
       <workItem from="1511883348106" duration="1244000" />
       <workItem from="1511885002175" duration="615000" />
-      <workItem from="1511984011596" duration="8222000" />
+      <workItem from="1511984011596" duration="10189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365708000" />
+    <option name="totallyTimeSpent" value="367675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-158" y="12" width="877" height="698" extended-state="1" />
+    <frame x="-158" y="12" width="877" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20441347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -543,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvctest/webroot/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="278">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>

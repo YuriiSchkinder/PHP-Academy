@@ -1,15 +1,22 @@
 <?php
 error_reporting(E_ALL);
 
-class object{
-    function object($entity){
-        $entity->name='John';
+class A{
+    public $a=1;
+    public function __construct($a)
+    {
+        $this->a=$a;
+    }
+    public function mul(){
+        return function ($x){
+            return $this->a*$x;
+        };
     }
 }
-class Entity{
-    var $name='Maria';
-}
-$entity= new Entity();
-$obj= new object($entity);
-print $entity->name;
+$a= new A(2);
+$a->mul =function ($x){
+    return $x*$x;
+};
+$m= $a->mul();
+echo $m(3);
 ?>
