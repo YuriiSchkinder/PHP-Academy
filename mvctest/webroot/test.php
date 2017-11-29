@@ -1,21 +1,21 @@
 <?php
 error_reporting(E_ALL);
 
-try {
-    class MyException extends Exception
+class Foo {
+    public static $cnt=0;
+    public function foo(){
+        ++self::$cnt;
+    }
+    function __construct()
     {
+        ++self::$cnt;
     }
-
-    try {
-        throw new MyException;
-    } catch (Exception $e) {
-        echo "1:";
-        throw $e;
-    } catch (MyException $e) {
-        echo '2:';
-        throw $e;
-    }
-}catch (Exception $e){
-    echo get_class($e);
 }
+$f=new Foo;
+$d=$f;
+$c= clone $d;
+$f->foo();
+$d->foo();
+$c->foo();
+echo Foo::$cnt;
 ?>
