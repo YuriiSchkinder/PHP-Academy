@@ -1,14 +1,18 @@
 <?php
 error_reporting(E_ALL);
-class C{
-    protected $x=array();
- public function &getX(){
-     return $this->x;
- }
+class Magic{
+    protected $v=[
+      'a'=>1,
+      'b'=>2,
+      'c'=>3
+    ];
+    public function &__get($v)
+    {
+        return $this->v[$v];
+    }
 
 }
-$obj= new C();
-array_push($obj->getX(),'one');
-array_push($obj->getX(),'two');
-echo count($obj->getX());
+$m= new Magic();
+$m->d[]=4;
+echo $m->d[0];
 ?>
