@@ -1,15 +1,24 @@
 <?php
-abstract class myBaseClass{
-    abstract protected function doSome();
-    function theree(){
-        return ".....";
+error_reporting(E_ALL);
+class C{
+    public $x=1;
+    function __construct()
+    {
+
+        ++$this->x;
     }
+    function __invoke()
+    {
+
+        return ++$this->x;
+    }
+    function __toString()
+    {
+
+        return (string) --$this->x;
+    }
+
 }
-class myBase extends myBaseClass{
-    protected function doSome() {
-        echo $this->theree();
-}
-}
-$a=new myBase();
-$a->doSome();
+$obj= new C();
+echo $obj();
 ?>
