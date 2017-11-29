@@ -1,22 +1,21 @@
 <?php
 error_reporting(E_ALL);
 
-class A{
-    public $a=1;
-    public function __construct($a)
+try {
+    class MyException extends Exception
     {
-        $this->a=$a;
     }
-    public function mul(){
-        return function ($x){
-            return $this->a*$x;
-        };
+
+    try {
+        throw new MyException;
+    } catch (Exception $e) {
+        echo "1:";
+        throw $e;
+    } catch (MyException $e) {
+        echo '2:';
+        throw $e;
     }
+}catch (Exception $e){
+    echo get_class($e);
 }
-$a= new A(2);
-$a->mul =function ($x){
-    return $x*$x;
-};
-$m= $a->mul();
-echo $m(3);
 ?>
