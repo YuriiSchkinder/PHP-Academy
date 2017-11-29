@@ -1,12 +1,12 @@
 <?php
 error_reporting(E_ALL);
 
-class Bar{
-    private $a=false;
-    public $c=true;
-
+class newClass{
+    public static $props= [];
+    static function __set($n,$v){
+        self::$props[$n]=$v;
+    }
 }
-$x=(array) new Bar();
-echo array_key_exists('a', $x)? 'true':'false'; echo '-';
-echo array_key_exists('c', $x)? 'true':'false';
+newClass::__set('prop','value');
+print_r(newClass::$props);
 ?>
