@@ -1,27 +1,15 @@
 <?php
-class myexception extends Exception{
-
-}
-class myClass{
-    function __destruct()
-    {
-        echo "закрива зєднення з базою";
-        throw new Exception('Ошибка при транзакції');
+abstract class myBaseClass{
+    abstract protected function doSome();
+    function theree(){
+        return ".....";
     }
 }
-class myNewClass{
-    function __destruct()
-    {
-        echo "закрива log";
-        throw new myexception('Ошибка при log');
-    }
+class myBase extends myBaseClass{
+    protected function doSome() {
+        echo $this->theree();
 }
-try{
-    $db=new myClass();
-    $log=new myNewClass();
-}catch (Exception $e){
-    echo $e->getMessage();
-}catch (Exception $m){
-    echo $m->getMessage();
 }
+$a=new myBase();
+$a->doSome();
 ?>
