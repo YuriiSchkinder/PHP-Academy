@@ -2,11 +2,13 @@
 error_reporting(E_ALL);
 
 class newClass{
-    public static $props= [];
-    static function __set($n,$v){
-        self::$props[$n]=$v;
-    }
+    public $a=10;
+    public $b=20;
+    private $c=10;
+
 }
-newClass::__set('prop','value');
-print_r(newClass::$props);
+$b= new newClass();
+foreach ($b as $key=>$value){
+    echo "$value ";
+}
 ?>
