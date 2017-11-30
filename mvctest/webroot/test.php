@@ -1,19 +1,13 @@
 <?php
 error_reporting(E_ALL);
 
-class MyClass{
-    public static function who(){
-        echo __CLASS__;
-    }
-    public static function test(){
-        self::who();
+class V{
+    public $val;
+}
+function render(V $a){
+    if($a){
+        echo $a->val;
     }
 }
-class MyNewClass extends MyClass{
-    public static function who()
-    {
-        echo __CLASS__;
-    }
-}
-MyNewClass::test();
+render(null);
 ?>
