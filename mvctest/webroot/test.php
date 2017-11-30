@@ -1,12 +1,19 @@
 <?php
 error_reporting(E_ALL);
 
-class Bar{
-    private $a='b';
-    public $c='d';
+class MyClass{
+    public static function who(){
+        echo __CLASS__;
+    }
+    public static function test(){
+        self::who();
+    }
 }
-$x=(array) new Bar();
-echo array_key_exists('a',$x) ? 'true': 'false';
-echo '-';
-echo array_key_exists('c',$x) ? 'true': 'false';
+class MyNewClass extends MyClass{
+    public static function who()
+    {
+        echo __CLASS__;
+    }
+}
+MyNewClass::test();
 ?>
