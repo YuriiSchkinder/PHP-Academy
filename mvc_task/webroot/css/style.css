@@ -1,0 +1,14 @@
+body{
+    padding-top: 50px ;
+}
+.starter-template{
+    padding: 40px 15px;
+}
+form .form-control {
+
+    margin: 15px 0;
+}
+form{
+    width: 400px;
+    max-width: 400px;
+}
